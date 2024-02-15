@@ -1,10 +1,11 @@
-Main.class
-SchoolManagement/SchoolMembers/Person.class
-SchoolManagement/Enums/Gender.class
 SchoolManagement/SchoolMembers/Teacher.class
 SchoolManagement/SchoolMembers/Student.class
 SchoolManagement/SchoolMembers/Course.class
-SchoolManagement/Enums/Course.class
 SchoolManagement/Enums/StaffRole.class
-SchoolManagement/SchoolMembers/Staff.class
 SchoolManagement/SchoolMembers/NonAcademicStaff.class
+Main.class
+SchoolManagement/SchoolMembers/Person.class
+SchoolManagement/Enums/Gender.class
+SchoolManagement/SchoolMembers/Applicants.class
+SchoolManagement/SchoolMembers/Staff.class
+SchoolManagement/SchoolMembers/Principal.class
