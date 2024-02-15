@@ -9,9 +9,7 @@ public abstract class Person {
     private int id;
     private String gender;
 
-//    public Person (){
-//
-//    }
+
 
     public Person(String name, int age, int id, String gender) {
         this.name = name;

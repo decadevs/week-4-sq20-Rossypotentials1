@@ -28,6 +28,9 @@ public class Teacher extends Person {
                     String [] splitTeacherObj = line.split(",");
                     Teacher teacher = new Teacher(splitTeacherObj[0], Integer.parseInt(splitTeacherObj[1]), Integer.parseInt(splitTeacherObj[2]), splitTeacherObj[3]);
                     teacherList.add(teacher);
+
+
+
                 }counter++;
             }buffer.close();
         } catch (FileNotFoundException e) {
@@ -42,6 +45,11 @@ public class Teacher extends Person {
         var t4 = teacherList.get(4);
         var t5 = teacherList.get(5);
         var t6 = teacherList.get(6);
+        //t1.setName("Emammmmm");
+
+
+
+
 
         System.out.println(t0 + "\n" + t1 + "\n" + t3 + "\n" + t4 + "\n" + t5 + "\n" + t6 );
     }
